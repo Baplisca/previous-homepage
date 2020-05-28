@@ -36,13 +36,12 @@ color:#333333;
 font-size:14px;
 }
 ul {
-    margin: 0 0 0 1em;
-    padding: 0;
-    }
-li {
-    list-style:square; 
+    list-style-type: square;
 }
 
+ol {
+    list-style-type: decimal;
+}
 P {
 margin:1em 0 1em 0;
 line-height:150%;
@@ -60,7 +59,7 @@ a{
 font-weight:normal;
 }
 h1 {
-font-size:24px;
+font-size:30px;
 font-weight:bold;
 text-align:left;
 padding:30px 0px 0px 10px;
@@ -119,3 +118,12 @@ padding:5px;
 margin:10px;
 }
 
+.mgr-10{
+    margin-right : 20px;
+}
+div.scroll {
+    height: 6.3em; 
+   overflow: scroll; 
+   border: blue 1px dashed;  
+   background-color: #f0f8ff; 
+}

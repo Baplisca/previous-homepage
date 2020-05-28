@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<title>横田　光悦のHP</title>
+<title>Koetsu Yokota</title>
 
 <meta name="description" content="横田　光悦のホームページ" />
 <link rel="stylesheet" href="index.css" type="text/css" />
@@ -13,9 +13,10 @@
 </head>
 <body>
 <div id="outer">
-<div id="header"><div id="head-inner"><h1>横田　光悦のホームページ</h1>
-<p class="description">情報をまとめるためにHPを作成しました。</p>
-<p class="description">勉強中ですので、随時更新します。</p></div>
+<div id="header"><div id="head-inner"><h1><center>横田　光悦のホームページ</center></h1><br>
+<center><p class="description"><font size="4">情報をまとめるためにHPを作成しました。</font></p></center>
+<center><p class="description"><font size="4">勉強中ですので、随時更新します。</font></p></center>
+</div>
 </div>
 
 <h2><center>
@@ -27,6 +28,71 @@
 <div id="contents">
 
 <h2>My Works</h2><br><br>
+
+<h2>競技プログラミングのために作成したライブラリ </h2>
+<p>競プロで頻繁に用いる処理をライブラリにしたものです。言語はC++です。</p>
+<details>
+    <summary>ライブラリ一覧</summary>
+    <ol>
+         <li>グラフ
+            <ul>
+                <li>幅優先探索 (BFS)</li>
+                <li>深さ優先探索 (DFS)</li>
+                <li>メモ化DFS</li>
+                <li>ワーシャルフロイド法</li>
+                <li>ダイクストラ法</li>
+                <li>辺彩色</li>
+            </ul>
+         </li>
+         <li>動的計画法 (DP)
+            <ul>
+                <li>1次元DP</li>
+                <li>2次元DP</li>
+                <li>bitDP</li>
+            </ul>
+         </li>
+         <li>数学 (整数)
+            <ul>
+                <li>エラトステネスのふるい</li>
+                <li>二項係数 (light_ver)</li>
+                <li>二項係数 (mod_ver)</li>
+                <li>二項係数 (mod_memo_ver)</li>
+                <li>重複順列</li>
+                <li>約数列挙</li>
+                <li>逆元を使った解答例</li>
+            </ul>
+         </li>
+         <li>その他データ構造
+            <ul>
+                <li>累積和</li>
+                <li>2次元累積和</li>
+                <li>BIT</li>
+                <li>セグメント木</li>
+                <li>Union-Find</li>
+                <li>重み付きUnion-Find</li>
+                <li>ダブリング</li>
+            </ul>
+         </li>
+         <li>その他
+             <ul>
+                 <li>順列全探索</li>
+                 <li>bit全探索</li>
+                 <li>しゃくとり法</li>
+                 <li>二分探索</li>
+             </ul>
+         </li>
+         <li>作れそうなもの
+            <ul>
+                <li>区間DP</li>
+                <li>最小全域木 (Prim_ver)</li>
+                <li>クリーク全列挙</li>
+                <li>最大クリーク</li>
+                <li>トポロジカルソート</li>
+            </ul>
+        </li>
+    </ol>
+</details>
+<p>近日githubに公開します</p>
 
 <h2>海洋生物たちの復讐</h2>
 <p>大学1年次に制作した初めてのゲーム作品です</p>
@@ -58,21 +124,18 @@
     <img src="images/Game2-4.png" width="160px" height="90px">
 </center><br>
 
-<h2>競技プログラミングのために作成したライブラリ </h2>
-<p>競プロで頻繁に用いる処理をライブラリにしたものです。言語はC++です。</p>
-<p>近日githubに公開します</p>
-
 <h2>卒業論文のシミュレーション結果</h2>
 <p>「ヒューリスティックソルバーによる安定した電力システムの構築と量子アニーリングによる比較」というテーマで研究を行いました.</p>
+<p>以下が研究の成果物の一部になります.</p>
 <p>こちらが<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.046112" target="_blank">先行研究のアルゴリズム</a>にしたがって, 最適化を行った図です.</p>
 <center>
     <img src="images/heuristic.gif" width="300px" height="300px">
     <br>
 </center>
-<p>量子アニーリングを用いて, 最適すると, 右の図のようになります.</p>
+<p>量子アニーリングを用いて, 最適化すると, 右の図のようになります.</p>
 <center>
     <img src="images/no_annealing.png" width="160px" height="160px">
-    <img src="images/annealing.png" width="160px" height="160px">
+    <img src="images/annealing2.png" width="160px" height="160px">
 </center><br>
 
 <p>言語はPythonで, グラフィックライブラリはNetworkXを用いました.</p>
