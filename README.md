@@ -1,1 +1,1 @@
-file:///Users/yokota1/Desktop/hp/works.html
+https://baplisca.github.io/index.html
