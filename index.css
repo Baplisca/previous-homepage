@@ -122,7 +122,7 @@ margin:10px;
     margin-right : 20px;
 }
 div.scroll {
-    height: 10em; 
+    height: 20em; 
    overflow: scroll; 
    border: blue 1px dashed;  
    background-color: #f0f8ff; 
