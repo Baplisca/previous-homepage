@@ -51,6 +51,9 @@
     ol {
         list-style-type: decimal;
     }
+    pl {
+        list-style-type: lower-latin;
+    }
     P {
     margin:1em 0 1em 0;
     line-height:150%;
