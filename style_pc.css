@@ -59,7 +59,20 @@
     line-height:150%;
     }
     img{
-    border:0px;
+     border:0px;
+    }
+    .imgIcon {
+        border:0px;
+        float: left;
+        text-align:center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 43%;
+        /* positionとleftの説明 https://aprico-media.com/posts/4337 */
+    }
+    .clearFloat{
+        clear: left;
     }
     hr {
     border-width: 1px 0px 0px 0px;
@@ -125,11 +138,16 @@
     
     #footer {
         font-family: "Helvetica Neue";
-    font-size:12px;
-    height:100px;
-    clear:left;
-    text-align:center;
+        font-size:14px;
+        height:100px;
+        clear:left;
+        text-align:center;
     }
+    /*説明URL https://web-camp.io/magazine/archives/27870 */
+    ul.footer-menu li {
+        display: inline;
+    }
+
     blockquote{
     border:1px solid #ccc;
     padding:5px;
