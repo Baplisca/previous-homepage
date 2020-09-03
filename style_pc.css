@@ -62,13 +62,10 @@
      border:0px;
     }
     .imgIcon {
-        border:0px;
         float: left;
         text-align:center;
-        width: 60px;
-        height: 60px;
         position: relative;
-        left: 43%;
+        left: 50%;
         /* positionとleftの説明 https://aprico-media.com/posts/4337 */
     }
     .clearFloat{
