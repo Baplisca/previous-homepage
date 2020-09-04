@@ -7,16 +7,24 @@ max-width: 100%;
 height: auto;
 width /***/:auto;
 }
-.imgIcon {
-    border:0px;
-    float: left;
-    text-align:center;
-    width: 60px;
-    height: 60px;
-    position: relative;
-    left: 0%;
-    /* positionとleftの説明 https://aprico-media.com/posts/4337 */
+/* flex説明　https://xn--web-oi9du9bc8tgu2a.com/css-basis-flex/ */
+.flex{
+    padding: 2.5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .flex > *{
+    width: 8%;
+    background: #fff;
+    font-size: 64px;
+    text-align: center;
+  }
+  .flex,
+  .flex > *{
+    border: 0px solid #aaa;
 }
+
 p{
     font-family: "Helvetica Neue";
     text-indent: 1em;
@@ -180,4 +188,54 @@ div.scroll {
     height:100%;
 }
 
+/* ヘッダメニュー参考URL https://www.e-sanwa.co.jp/sbs/column/20180323/ */
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    }
+    nav ul li{
+    display: table-cell;
+    position: relative;
+    }
+    nav ul li a{
+    display: block;
+    width: 100%;
+    }
+    nav ul li a::after,
+    nav ul li a::before {
+    display: block;
+    content: ”;
+    position: absolute;
+    }
+    nav ul li a::after {
+    bottom: -50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+    }
+    nav ul li a.current::after {
+    background-color: #3498db;
+    }
+    nav ul li a:hover{
+    color: #3498db;
+    }
+    nav ul li a:hover:after {
+    background-color: yellow;
+    width: 100%;
+    left: 0;
+    border-radius: 5px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color:#aaa;
+    }
+    nav ul li a.current{
+        color:rgb(226, 12, 12);
+    }
+}
 }
