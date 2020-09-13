@@ -79,6 +79,9 @@ ul {
 ol {
     list-style-type: decimal;
 }
+li.no{
+    list-style-type:none;
+}
 pl {
     list-style-type: lower-latin;
 }
@@ -220,11 +223,17 @@ nav ul{
     }
     nav ul li.current{
         background-color: #e4e9ecfb;
+        border: none;
+        border-radius: 10px;
     }
     nav ul li.current a{
         color: #555;
+        border: none;
+        border-radius: 10px;
     }
     nav ul li:hover{
         background-color: #e4e9ecfb;
+        border: none;
+        border-radius: 10px;
     }
 }
