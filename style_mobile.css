@@ -29,6 +29,9 @@ p{
     font-family: "Helvetica Neue";
     text-indent: 1em;
 }
+.bold{
+    font-weight: bold;
+}
 body {
     font-family: "Helvetica Neue";
 margin:0px;
@@ -168,10 +171,12 @@ margin:10px;
     margin-right : 20px;
 }
 div.scroll {
-    height: 10em; 
-   overflow: scroll; 
-   border: blue 1px dashed;  
-   background-color: #f0f8ff; 
+    height: 20em; 
+    overflow: scroll;   
+    background: rgba(54, 54, 54, 0.116);
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2px rgb(12, 12, 12);
 }
 /*説明URL https://akros-ac.jp/8277/ */
 .google_map{
