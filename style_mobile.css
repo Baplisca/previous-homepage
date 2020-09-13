@@ -195,6 +195,20 @@ div.scroll {
     width:100%;
     height:100%;
 }
+/*説明URL https://design.webclips.jp/youtube-movie-size/ */
+.youtube{
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+.youtube iframe{
+    position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
 
 .navvar {
     font-family: "Helvetica Neue";
