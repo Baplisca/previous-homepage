@@ -171,7 +171,7 @@
         margin-right : 20px;
     }
     div.scroll {
-        height: 15em; 
+        height: 20em; 
         overflow: scroll;   
         background: rgba(54, 54, 54, 0.116);
         border: none;
