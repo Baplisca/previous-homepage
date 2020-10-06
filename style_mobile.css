@@ -1,251 +1,230 @@
 /* スマートフォン用CSS */
+
 @media screen and (max-width: 640px) {
- 
-/*　画像をスマホサイズに縮小してくれる */
-img{
-max-width: 100%;
-height: auto;
-width /***/:auto;
-}
-/* flex説明　https://xn--web-oi9du9bc8tgu2a.com/css-basis-flex/ */
-.flex{
-    padding: 2.5% 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .flex > *{
-    width: 8%;
-    background: #fff;
-    font-size: 64px;
-    text-align: center;
-  }
-  .flex,
-  .flex > *{
-    border: 0px solid #aaa;
-}
-
-p{
-    font-family: "Helvetica Neue";
-    text-indent: 1em;
-}
-.bold{
-    font-weight: bold;
-}
-body {
-    font-family: "Helvetica Neue";
-margin:0px;
-padding:0px;
-text-align:center;
-}
-#outer {
-    font-family: "Helvetica Neue";
-font-size:13px;
-line-height:150%;
-text-align:left;
-}
-#header {
-    font-family: "Helvetica Neue";
-text-align:left;
-background-color:#214555;
-}
-#head-inner {
-    font-family: "Helvetica Neue";
-margin:0px auto 0px auto;
-padding:10px 0px 0px 0px;
-width:100%;
-background-color:#214555;
-padding:5px;
-}
-.description {
-    font-family: "Helvetica Neue";
-padding-left:10px;
-line-height:140%;
-color:#ffffff;
-}
-#contents {
-    font-family: "Helvetica Neue";
-margin:0px auto 0px auto;
-padding:30px 0px 0px 0px;
-width:95%;
-line-height:150%;
-color:#333333;
-font-size:14px;
-}
-ul {
-    list-style-type: square;
-}
-
-ol {
-    list-style-type: decimal;
-}
-li.no{
-    list-style-type:none;
-}
-pl {
-    list-style-type: lower-latin;
-}
-P {
-    font-family: "Helvetica Neue";
-margin:1em 0 1em 0;
-line-height:150%;
-}
-hr {
-border-width: 1px 0px 0px 0px;
-border-style: solid;
-border-color: #cccccc;
-height: 1px;
-}
-a{
-    font-family: "Helvetica Neue";
-font-weight:normal;
-}
-h1 {
-    font-family: "Helvetica Neue";
-font-size:30px;
-font-weight:bold;
-text-align:left;
-padding:30px 0px 0px 10px;
-margin:0px;
-color:#ffffff;
-}
-h1 a{
-    font-family: "Helvetica Neue";
-font-weight:bold;
-color:#ffffff;
-text-decoration:none;
-}
-h1 a:hover{
-    font-family: "Helvetica Neue";
-font-weight:bold;
-color:#ffffff;
-text-decoration:underline;
-}
-h2 {
-    font-family: "Helvetica Neue";
-font-size:16px;
-margin:0px 0px 0px 0px;
-padding:4px 0px 4px 7px;
-border-bottom:2px solid #999999;
-}
-.green {
-color:#008800;
-font-weight:bold;
-}
-#middle {
-margin:0px auto 0px auto;
-padding:10px 0px 20px 0px;
-width:694px;
-}
-.side-title {
-width:540px;
-padding:4px 10px 4px 10px;
-background-color:#f1f1f1;
-font-weight:bold;
-border:1px solid #999999;
-margin-bottom:10px;
-}
-.side {
-margin:0px 0px 10px 0px;
-padding:2px 8px 8px 7px;
-line-height:150%;
-}
-
-
-#footer {
-    font-family: "Helvetica Neue";
-    font-size:14px;
-    height:100px;
-    clear:left;
-    text-align:center;
-}
-/*説明URL https://web-camp.io/magazine/archives/27870 */
-ul.footer-menu li {
-    display: inline;
-}
-
-blockquote{
-border:1px solid #ccc;
-padding:5px;
-margin:10px;
-}
-
-.mgr-10{
-    margin-right : 20px;
-}
-div.scroll {
-    height: 20em; 
-    overflow: scroll;   
-    background: rgba(54, 54, 54, 0.116);
-    border: none;
-    border-radius: 10px;
-    box-shadow: inset 0 0 2px rgb(12, 12, 12);
-}
-/*説明URL https://akros-ac.jp/8277/ */
-.google_map{
-    position:relative;
-    width:100%;
-    height:0;
-    padding-top:75%;
-}
-.google_map iframe{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-}
-/*説明URL https://design.webclips.jp/youtube-movie-size/ */
-.youtube{
-    position: relative;
-    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
-    height: 0;
-    overflow: hidden;
-}
-.youtube iframe{
-    position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
-}
-
-.navvar {
-    font-family: "Helvetica Neue";
-    text-align:left;
-    background-color:#e4e9ec6c;
-}
-/* ヘッダメニュー参考URL https://www.e-sanwa.co.jp/sbs/column/20180323/ 背景カラー＋シンプルメニュー */
-nav ul{
-    display: table;
-    margin: 0 auto;
-    padding: 0;
-    width: 80%;
-    text-align: center;
-}
-    nav ul li{
-    display: table-cell;
-    min-width: 50px;
+    /*　画像をスマホサイズに縮小してくれる */
+    img {
+        max-width: 100%;
+        height: auto;
+        width/***/
+        : auto;
     }
-    nav ul li a{
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
+    /* flex説明　https://xn--web-oi9du9bc8tgu2a.com/css-basis-flex/ */
+    .flex {
+        padding: 2.5% 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    nav ul li.current{
+    .flex>* {
+        width: 8%;
+        background: #fff;
+        font-size: 64px;
+        text-align: center;
+    }
+    .flex, .flex>* {
+        border: 0px solid #aaa;
+    }
+    p {
+        text-indent: 1em;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    body {
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    #outer {
+        font-size: 13px;
+        line-height: 150%;
+        text-align: left;
+    }
+    #header {
+        text-align: left;
+        background-color: #214555;
+    }
+    #head-inner {
+        margin: 0px auto 0px auto;
+        padding: 10px 0px 0px 0px;
+        width: 100%;
+        background-color: #214555;
+        padding: 5px;
+    }
+    .description {
+        line-height: 140%;
+        color: #ffffff;
+    }
+    #contents {
+        margin: 0px auto 0px auto;
+        padding: 30px 0px 0px 0px;
+        width: 95%;
+        line-height: 150%;
+        color: #333333;
+        font-size: 14px;
+    }
+    ul {
+        list-style-type: square;
+    }
+    ol {
+        list-style-type: decimal;
+    }
+    li.no {
+        list-style-type: none;
+    }
+    pl {
+        list-style-type: lower-latin;
+    }
+    P {
+        margin: 1em 0 1em 0;
+        line-height: 150%;
+    }
+    hr {
+        border-width: 1px 0px 0px 0px;
+        border-style: solid;
+        border-color: #cccccc;
+        height: 1px;
+    }
+    a {
+        font-weight: normal;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+        padding: 30px 0px 0px 0px;
+        margin: 0px;
+        color: #ffffff;
+    }
+    h1 a {
+        font-weight: bold;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    h1 a:hover {
+        font-weight: bold;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    h2 {
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+        padding: 4px 0px 4px 7px;
+        border-bottom: 2px solid #999999;
+    }
+    .green {
+        color: #008800;
+        font-weight: bold;
+    }
+    #middle {
+        margin: 0px auto 0px auto;
+        padding: 10px 0px 20px 0px;
+        width: 694px;
+    }
+    .side-title {
+        width: 540px;
+        padding: 4px 10px 4px 10px;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        border: 1px solid #999999;
+        margin-bottom: 10px;
+    }
+    .side {
+        margin: 0px 0px 10px 0px;
+        padding: 2px 8px 8px 7px;
+        line-height: 150%;
+    }
+    #footer {
+        font-size: 14px;
+        height: 100px;
+        clear: left;
+        text-align: center;
+    }
+    /*説明URL https://web-camp.io/magazine/archives/27870 */
+    ul.footer-menu li {
+        display: inline;
+    }
+    blockquote {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin: 10px;
+    }
+    .mgr-10 {
+        margin-right: 20px;
+    }
+    div.scroll {
+        height: 20em;
+        overflow: scroll;
+        background: rgba(54, 54, 54, 0.116);
+        border: none;
+        border-radius: 10px;
+        box-shadow: inset 0 0 2px rgb(12, 12, 12);
+    }
+    /*説明URL https://akros-ac.jp/8277/ */
+    .google_map {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 75%;
+    }
+    .google_map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    /*説明URL https://design.webclips.jp/youtube-movie-size/ */
+    .youtube {
+        position: relative;
+        padding-bottom: 56.25%;
+        /*アスペクト比 16:9の場合の縦幅*/
+        height: 0;
+        overflow: hidden;
+    }
+    .youtube iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .navvar {
+        text-align: left;
+        background-color: #e4e9ec6c;
+    }
+    /* ヘッダメニュー参考URL https://www.e-sanwa.co.jp/sbs/column/20180323/ 背景カラー＋シンプルメニュー */
+    nav ul {
+        display: table;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+    }
+    nav ul li {
+        display: table-cell;
+        min-width: 50px;
+    }
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #555;
+        font-weight: bold;
+    }
+    nav ul li.current {
         background-color: #e4e9ecfb;
         border: none;
         border-radius: 10px;
     }
-    nav ul li.current a{
+    nav ul li.current a {
         color: #555;
         border: none;
         border-radius: 10px;
     }
-    nav ul li:hover{
+    nav ul li:hover {
         background-color: #e4e9ecfb;
         border: none;
         border-radius: 10px;
