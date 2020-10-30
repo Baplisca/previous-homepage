@@ -43,13 +43,13 @@
     }
     #header {
         text-align: left;
-        background-color: #214555;
+        background-color: #343a40;
     }
     #head-inner {
         margin: 0px auto 0px auto;
         padding: 10px 0px 0px 0px;
         width: 100%;
-        background-color: #214555;
+        background-color: #343a40;
         padding: 5px;
     }
     .description {
