@@ -1,6 +1,6 @@
 /* スマートフォン用CSS */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
     /*　画像をスマホサイズに縮小してくれる */
     img {
         max-width: 100%;
@@ -187,7 +187,7 @@
     }
     nav ul li {
         display: table-cell;
-        min-width: 50px;
+        min-width: 25vw;
     }
     nav ul li a {
         display: block;
