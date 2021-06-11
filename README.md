@@ -1,1 +1,1 @@
-https://baplisca.github.io/index.html
+https://baplisca.github.io/ → https://baplisca.herokuapp.com/
